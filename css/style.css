@@ -78,6 +78,7 @@
 =============================*/
 
 #input{
+    width: 382px;
     margin-top: 30px;
     font-family: 'DM Serif Display', serif;
     font-family: 'Anton', sans-serif;
@@ -186,3 +187,5 @@ li i{
 /*============================
       result part
 =============================*/
+
+

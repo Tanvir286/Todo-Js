@@ -58,7 +58,7 @@ let show = () =>{
                       <div class="one">
                            <h2>${item}</h2>
                       </div>
-                        <div class="two">
+                        <div class="two">               
                           <button class="edit"><i class="fa-solid fa-pen-to-square"></i></button>
                           <button class="delete"><i class="fa-solid fa-trash-can"></i></button>
                         </div>
@@ -66,7 +66,27 @@ let show = () =>{
      });
      tasklistDelete();
      tasklistEdit();
+     //tikCheck();
 }
+
+
+
+// let tikCheck = () =>{
+//   let tikBtn = document.querySelectorAll(".tik");
+//   let tikArr =Array.from(tikBtn);
+
+//   console.log(tikArr);
+
+//   tikArr.map((tikItem,tikIndex) =>{
+//     tikItem.addEventListener('click',()=>{
+     
+//       let li = tikItem.closest('li');
+//       let h2 = li.querySelector('h2');
+//       h2.classList.add('textBreak');
+      
+//     })
+//   })
+// }
 
 
 
@@ -115,3 +135,4 @@ update.addEventListener('click',function(){
   submit.style.display = "inline-block"
   input.value = ''; 
 })
+
